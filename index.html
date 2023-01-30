@@ -16,6 +16,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
+                    <!-- User Card Start -->
                     <div class="card user-card">
                         <div class="card-header">
                             <h1 class="card-title">Enter Your Location Name</h1>
@@ -24,20 +25,20 @@
                         <div class="card-body">
                             <input type="text" name="locationName" id="locationName" class="form-control"
                                 autocomplete="false" spellcheck="false" placeholder="City Name">
-                            <input type="button" value="Check" id="detectBtn" class="btn btn-primary">
+                                <div class="divider"></div>
+                            <input type="button" value="Get Your Location" id="detectBtn" class="btn btn-primary btn-block">
                         </div>
                     </div>
+                    <!-- / User Card End -->
                     <div class="card weather-card">
-                        <div class="card-header">
-                            <button type="button" class="btn" id="BackArr"><i class="fa fa-arrow-left"
+                        <div class="card-header text-left">
+                            <button type="button" class="arrow-btn" id="BackArr"><i class="fa fa-arrow-left"
                                     aria-hidden="true"></i></button>
                         </div>
                         <img src="./assets/img/clear.svg" alt="!" class="card-img-top">
                         <div class="card-body">
                             <h1 class="text-center font-50 temp">
-                                <span class="numb">50</span>
-                                <span class="deg">o</span>
-                                C
+                                <span class="numb">26</span><sup class="deg temp-deg">o</sup> C
                             </h1>
                             <h2 class="text-center weather-title">Clear</h2>
                             <h2 class="text-center location-details">
@@ -48,27 +49,26 @@
                         </div>
                         <div class="card-footer">
                             <div class="col-md-6">
-                                <span class="tharmo"><i class="fa fa-thermometer-half" aria-hidden="true"></i></span>
-                                <span class="feel-like">
-                                    <span class="temp-feel"></span>
-                                    <span class="deg">o</span>
+                                <div class="tharmo"><i class="fa fa-thermometer-half" aria-hidden="true"></i></div>
+                                <div class="feel-like">
+                                    <span class="temp-feel">26</span><sup class="deg">o</sup>
                                     C
                                     <br>
                                     <span class="feel-title">
                                         Feels like
                                     </span>
-                                </span>
+                                </div>
                             </div>
                             <div class="col-md-6">
-                                <span class="drop"><i class="fa fa-tint" aria-hidden="true"></i></span>
-                                <span class="humi">
-                                    <span class="humi-feel"></span>
+                                <div class="drop"><i class="fa fa-tint" aria-hidden="true"></i></div>
+                                <div class="humi">
+                                    <span class="humi-feel">61</span>
                                     <span class="modul">%</span>
                                     <br>
                                     <span class="humi-title">
                                         Humidity
                                     </span>
-                                </span>
+                                </div>
                             </div>
                         </div>
                     </div>
