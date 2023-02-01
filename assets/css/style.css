@@ -70,11 +70,14 @@ h1{
 .btn-block{
     width: 100%;
 }
-.user-card{
+.error{
     display: none;
 }
-.weather-card{
+.user-card{
     display: block;
+}
+.weather-card{
+    display: none;
     width: 380px;
     text-align: center;
     padding: 0;
